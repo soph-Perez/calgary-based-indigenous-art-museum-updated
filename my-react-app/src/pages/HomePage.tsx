@@ -5,10 +5,12 @@ function HomePage() {
 
   return (
     <div>
-      <h1>plz add project title</h1>
+      <h1>Indigenous Digital Art Gallery</h1>
       <p>
-        Add Info Here
-      </p>
+  Welcome to the Indigenous Digital Art Gallery — a curated collection of contemporary works that celebrate Indigenous identity, culture, storytelling, and connection to land. Each piece in this gallery reflects themes of resilience, tradition, intergenerational knowledge, healing, and the enduring strength of Indigenous communities. Explore the artworks below to learn about their meaning, symbolism, and cultural significance.
+</p>
+
+     
       <button onClick={() => navigate('/lifegiver')}>
         Life Giver
       </button>
