@@ -5,7 +5,7 @@ function BufalloQuiz() {
   return (
     <Quiz
       questions={bufalloQuestions} 
-      title="Life Giver Quiz" 
+      title="Buffalo Nations Stand and Be Noticed Quiz" 
     />
   );
 }

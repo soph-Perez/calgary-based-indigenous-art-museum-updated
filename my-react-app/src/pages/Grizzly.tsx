@@ -5,8 +5,19 @@ function Grizzly() {
 
   return (
     <div>
-      <h2>Grizzly Page</h2>
-      <p>Extra Info content goes here.</p>
+      <h2>Grizzly</h2>
+      
+      {/* add image here and save them in assets*/}
+
+      <p>Grizzly is a wildlife painting by Gordon Wesley, a Stoney Nakoda artist from the Bighorn Reserve whose work is strongly influenced by his upbringing in the Rocky Mountain region of Alberta. Created using oil on canvas, the piece reflects Wesley’s lifelong connection to nature and the animals that inhabit his local geography. Growing up outdoors, he developed a deep appreciation for wildlife, which continues to shape his artistic focus today.
+The grizzly bear in this painting is not only a representation of the physical animal but also a symbol of strength, resilience, and respect for the natural world. Wesley’s style emphasizes realism while also capturing the spiritual presence of the animal, allowing viewers to feel both its power and its place within the ecosystem. His work has been featured in Indigenous art exhibitions such as “The Land Is Home,” which highlights Indigenous relationships with land, wildlife, and stewardship of natural spaces.
+Through Grizzly, Wesley expresses the enduring connection between Indigenous peoples and the environment, celebrating wildlife as an essential part of cultural identity rather than simply a subject of observation. The painting encourages viewers to recognize the importance of protecting natural habitats and honoring the balance between humans and nature.
+</p>
+
+      <p>Test your knowledge</p>
+      <button onClick={() => navigate('/grizzly/quiz')}> {/* ADD CORRECT PATH*/}
+        Take Quiz
+      </button>
 
       <button onClick={() => navigate('/')}>
         Back
