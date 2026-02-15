@@ -1,4 +1,12 @@
 import { useNavigate } from 'react-router-dom';
+import LifeGiver from "../assets/LifeGiver.webp";
+import ElderStories from "../assets/TheStoriesFromMyEldersLiftMeUp.webp";
+import Mohkins from "../assets/mohkins.webp";
+import Healing from "../assets/Healing.webp";
+import Morninglight from "../assets/MorningLight.webp";
+import Bufallo from "../assets/BuffaloNationsStandAndBeNoticed.webp";
+import Grizzly from "../assets/Grizzly.webp";
+import Cochrane from "../assets/Cochrane.webp";
 
 function HomePage() {
   const navigate = useNavigate();
@@ -11,37 +19,21 @@ function HomePage() {
 </p>
 
      
-      <button onClick={() => navigate('/lifegiver')}>
-        Life Giver
-      </button>
+      <img src={LifeGiver} alt="Life Giver" onClick={() => navigate("/lifegiver")}/>
 
-      <button onClick={() => navigate('/elderstories')}>
-        The Stories from My Elders Lift Me Up
-      </button>
+      <img src={ElderStories} alt="Elder Stories" onClick={() => navigate("/elderstories")}/>
 
-      <button onClick={() => navigate('/mohkins')}>
-        Moh'kins'tsis Project
-      </button>
+      <img src={Mohkins} alt="Mohkins" onClick={() => navigate("/mohkins")}/>
 
-      <button onClick={() => navigate('/healing')}>
-        Healing
-      </button>
+      <img src={Healing} alt="Healing" onClick={() => navigate("/healing")}/>
 
-      <button onClick={() => navigate('/morninglight')}>
-        Morning Light
-      </button>
+      <img src={Morninglight} alt="Morning Light" onClick={() => navigate("/morninglight")}/>
 
-      <button onClick={() => navigate('/bufallo')}>
-        Bufallo Nations Stand and Be Noticed
-      </button>
+      <img src={Bufallo} alt="Bufallo" onClick={() => navigate("/bufallo")}/>
 
-      <button onClick={() => navigate('/grizzly')}>
-        Grizzly
-      </button>
+      <img src={Grizzly} alt="Grizzly" onClick={() => navigate("/grizzly")}/>
 
-      <button onClick={() => navigate('/cochrane')}>
-        Cochrane Bricolage
-      </button>
+      <img src={Cochrane} alt="Cochrane Bricolage" onClick={() => navigate("/cochrane")}/>
 
       <button onClick={() => navigate('/sources')}>
         Sources
