@@ -1,0 +1,26 @@
+{
+  "name": "calhacks-2026-new",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/soph-Perez/calgary-based-indigenous-art-museum-updated#readme",
+  "bugs": {
+    "url": "https://github.com/soph-Perez/calgary-based-indigenous-art-museum-updated/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soph-Perez/calgary-based-indigenous-art-museum-updated.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}
