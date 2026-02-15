@@ -5,20 +5,20 @@ function HomePage() {
 
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>plz add project title</h1>
       <p>
         Add Info Here
       </p>
       <button onClick={() => navigate('/lifegiver')}>
-        LifeGiver
+        Life Giver
       </button>
 
       <button onClick={() => navigate('/elderstories')}>
-        ElderStories
+        The Stories from My Elders Lift Me Up
       </button>
 
       <button onClick={() => navigate('/mohkins')}>
-        Mohkins
+        Moh'kins'tsis Project
       </button>
 
       <button onClick={() => navigate('/healing')}>
@@ -26,11 +26,11 @@ function HomePage() {
       </button>
 
       <button onClick={() => navigate('/morninglight')}>
-        MorningLight
+        Morning Light
       </button>
 
       <button onClick={() => navigate('/bufallo')}>
-        Bufallo
+        Bufallo Nations Stand and Be Noticed
       </button>
 
       <button onClick={() => navigate('/grizzly')}>
@@ -38,7 +38,11 @@ function HomePage() {
       </button>
 
       <button onClick={() => navigate('/cochrane')}>
-        Cochrane
+        Cochrane Bricolage
+      </button>
+
+      <button onClick={() => navigate('/sources')}>
+        Sources
       </button>
     </div>
   );
