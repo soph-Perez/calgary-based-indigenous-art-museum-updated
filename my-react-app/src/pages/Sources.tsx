@@ -7,7 +7,7 @@ function Sources() {
     <div>
       <h1>Sources</h1>
 
-      <ul>
+      <ul className="sources-list">
         <li>
           <a
             href="https://www.calgary.ca/arts-culture/public-art/inglewood-bird-sanctuary-nature-centre.html"

@@ -36,15 +36,15 @@ function Quiz({ questions, title }: QuizProps) {
   // finished quiz
   if (finished) {
     return (
-      <div>
-        <h2>{title}</h2>
-        <h3>Quiz Finished!</h3>
-        <p>
-          Your Score: {score} / {questions.length}
-        </p>
-        <button onClick={() => navigate('/')}>
-        Back
-      </button>
+      <div className="quiz-container">
+        <h2 className="quiz-title">{title}</h2>
+        <div className="quiz-result">
+          <h3>Quiz Finished!</h3>
+          <p>Your Score: {score} / {questions.length}</p>
+          <button className="primary-button" onClick={() => navigate('/')}>
+            Back
+          </button>
+        </div>
       </div>
     );
   }
@@ -52,15 +52,18 @@ function Quiz({ questions, title }: QuizProps) {
   const question = questions[current];
 
   return (
-    <div>
-      <h2>{title}</h2>
-      <p>{question.question}</p>
-
-      {question.options.map((opt, i) => (
-        <button key={i} onClick={() => handleAnswer(i)}>
-          {opt}
-        </button>
-      ))}
+    <div className="quiz-container">
+      <h2 className="quiz-title">{title}</h2>
+      <div className="quiz-content">
+        <p className="quiz-question">{question.question}</p>
+        <div className="quiz-options">
+          {question.options.map((opt, i) => (
+            <button key={i} className="quiz-option-button" onClick={() => handleAnswer(i)}>
+              {opt}
+            </button>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
