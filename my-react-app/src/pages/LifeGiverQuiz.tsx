@@ -1,5 +1,5 @@
 import Quiz from "../components/quiz/Quiz";
-import { LifeGiverQuestions } from "../quizzes/lifegiverQuiz"; {/*change the path here*/}
+import { lifegiverQuestions } from "../quizzes/lifegiverQuiz"; 
 
 function LifeGiverQuiz() {
   return (
