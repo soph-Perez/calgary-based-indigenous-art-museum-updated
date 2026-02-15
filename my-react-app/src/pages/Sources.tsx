@@ -8,6 +8,9 @@ function Sources() {
       <h1>Sources</h1>
 
       <ul className="sources-list">
+
+        <h2>Exhibits & Artists</h2>
+
         <li>
           <a
             href="https://www.calgary.ca/arts-culture/public-art/inglewood-bird-sanctuary-nature-centre.html"
@@ -24,7 +27,8 @@ function Sources() {
             href="https://www.calgary.ca/arts-culture/public-art/indigenous-works.html"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline">
+            className="hover:underline"
+          >
             Calgary Indigenous Public Art Works
           </a>
         </li>
@@ -84,6 +88,8 @@ function Sources() {
           </a>
         </li>
 
+        <h2>Cultural & Community Context</h2>
+
         <li>
           <a
             href="https://www.calgary.ca/communities/indigenous/groups-in-calgary.html"
@@ -94,6 +100,143 @@ function Sources() {
             Indigenous Groups in Calgary – Community Context
           </a>
         </li>
+
+        <li>
+          <a
+            href="https://en.wikipedia.org/wiki/Medicine_wheel_(symbol)"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Medicine Wheel – Symbol Overview
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.blackfeetculturecamp.com/gallery/geometric-par-fleche-art/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Blackfeet Culture Camp – Geometric Par Fleche Art
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://traceassociates.ca/the-msash/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            The MSASH – Cultural Significance
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://stoneynakodanations.com/programs-and-services/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Stoney Nakoda Nations – Programs & Services
+          </a>
+        </li>
+
+        <h2>Video Sources</h2>
+
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=3sp0zR_wwvE"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            YouTube Video Source 1
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=95UyCuCyBzg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            YouTube Video Source 2
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=g2za4irzHic"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            YouTube Video Source 3
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=dPtJ2jQKyog"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            YouTube Video Source 4
+          </a>
+        </li>
+
+        <h2>Digital Assets & Textures</h2>
+
+        <li>
+          <a
+            href="https://ambientcg.com/view?id=WoodFloor051"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            AmbientCG – Wood Floor Texture
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://ambientcg.com/view?id=Wood051"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            AmbientCG – Wood Texture
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://ambientcg.com/view?id=Metal055A"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            AmbientCG – Metal Texture
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://ambientcg.com/view?id=Wallpaper001A"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            AmbientCG – Wallpaper Texture
+          </a>
+        </li>
+
       </ul>
 
       <button onClick={() => navigate('/')}>
