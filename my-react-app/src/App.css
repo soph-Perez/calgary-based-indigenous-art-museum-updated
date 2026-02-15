@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.center-container {
+  display:flex;
+  justify-content:center;
+}
+
+.muted { color: rgba(255,255,255,0.75); }
