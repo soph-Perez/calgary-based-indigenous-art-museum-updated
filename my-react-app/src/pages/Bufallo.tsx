@@ -5,7 +5,7 @@ function Bufallo() {
 
   return (
     <div>
-      <h2>Buffalo Nations Stand and Be Noticed Quiz</h2>
+      <h2>Bufallo Page</h2>
       
       {/* add image here and save them in assets*/}
 
@@ -17,7 +17,7 @@ Central imagery includes a buffalo and camp landscape, representing the Buffalo 
 The horses are elongated to show speed and power, with lightning bolts painted on them to further emphasize motion. Yellow handprints reference the “Yellow Hand” helpers in Tsuut’ina culture — individuals trained from a young age to assist and protect during ceremonies. Additional symbols include mountain and falling star teepee designs, turquoise horse hooves representing long-distance travel and Dene linguistic connections, and Dene floral patterns symbolizing growth. A standing Grassdancer holding an Eagle Staff and red women’s pipe represents blessing the land, spiritual connection, and the merging of old and new traditions under the concept “Stand and Be Noticed.”
 </p>
 
-      <p>Test your knowledge</p>
+      <p>Test you knowledge</p>
       <button onClick={() => navigate('/bufallo/quiz')}> {/* ADD CORRECT PATH*/}
         Take Quiz
       </button>
